@@ -1,7 +1,17 @@
-spring
-  profile: test123
-reserv:
-  url: https://www.javacodegeeks.com/2016/03/springboot-working-jdbctemplate.html
+spring:
+  profile: default
+app1:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
+app2:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
+app3:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
+app4:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
 ---
 spring:
   profile: testCristina
