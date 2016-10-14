@@ -1,9 +1,39 @@
+spring:
+  profile: default
+---
+spring:
+  profile: default
 app1:
   url: https://www.garmin.com/
-  name: app1 hello from spring cloud config
+  name: app1: hello from spring cloud config
 app2:
   url: http://www.garmin.com/ro-RO/company/career
   name: hello again from spring cloud config app2
 app3:
   url: https://www.javacodegeeks.com/2016/03
   name: app3 hello from server
+---
+spring:
+  profile: javaConfig
+app1:
+  url: https://www.garmin.com/
+  name: app1: hello java conference formspring cloud config server
+app2:
+  url: http://www.garmin.com/ro-RO/company/career
+  name: hello again from spring cloud config app2
+app3:
+  url: https://www.javacodegeeks.com/2016/03
+  name: app3 hello from server
+---
+spring:
+  profile: prod
+app1:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
+app2:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
+app3:
+  url: https://www.javacodegeeks.com/2016/03
+  host: test
+  
