@@ -1,45 +1,9 @@
-spring:
-  profile: default
 app1:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
+  url: https://www.garmin.com/
+  name: app1: hello from spring cloud config
 app2:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
+  url: http://www.garmin.com/ro-RO/company/career
+  name: hello again from spring cloud config app2
 app3:
   url: https://www.javacodegeeks.com/2016/03
-  host: test
-app4:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
----
-spring:
-  profile: testCristina
-app1:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-app2:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-app3:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-app4:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
----
-spring:
-  profile: testBogdan
-app1:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-app2:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-app3:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-app4:
-  url: https://www.javacodegeeks.com/2016/03
-  host: test
-  
+  name: app3 hello from server
