@@ -1,6 +1,3 @@
-datasource:
-    username: dbuser
-    password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
 ---
 spring:
   profiles: default
