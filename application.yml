@@ -1,6 +1,6 @@
 app1:
   url: https://www.garmin.com/
-  name: app1: hello from spring cloud config
+  name: app1 hello from spring cloud config
 app2:
   url: http://www.garmin.com/ro-RO/company/career
   name: hello again from spring cloud config app2
