@@ -3,7 +3,7 @@ datasource:
     password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
 ---
 spring:
-  profile: default
+  profiles: default
 app1:
   url: https://www.garmin.com/
   name: app1 hello from spring cloud config
@@ -15,7 +15,7 @@ app3:
   name: app3 hello from server
 ---
 spring:
-  profile: javaConfig
+  profiles: javaConfig
 app1:
   url: https://www.garmin.com/
   name: app1 hello java conference formspring cloud config server
@@ -27,7 +27,7 @@ app3:
   name: app3 hello from server java conference
 ---
 spring:
-  profile: prod
+  profiles: prod
 app1:
   url: https://www.garmin.com/
   name: app1 prod
