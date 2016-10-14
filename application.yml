@@ -1,5 +1,6 @@
-spring:
-  profile: default
+datasource:
+    username: dbuser
+    password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
 ---
 spring:
   profile: default
